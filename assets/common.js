@@ -8,4 +8,16 @@ $(document).ready(function() {
         $(".navbar-menu").toggleClass("is-active");
   
     });
+
+
   });
+
+
+
+$(function(){
+    $('#navbar').load('navbar.html')
+});
+
+$(function(){
+    $('#footer').load('footer.html')
+});
